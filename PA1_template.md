@@ -12,7 +12,21 @@ We first read in the data from `activity.csv` within `activity.zip`. We also loa
 ```r
 data <- read.csv(unz("activity.zip", "activity.csv"), stringsAsFactors = FALSE)
 attach(data)
+```
 
+```
+## The following objects are masked from data (pos = 3):
+## 
+##     date, interval, steps
+```
+
+```
+## The following objects are masked from data (pos = 5):
+## 
+##     date, interval, steps
+```
+
+```r
 library(ggplot2)
 ```
 

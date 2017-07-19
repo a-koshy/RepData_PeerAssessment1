@@ -207,8 +207,19 @@ hr {
 
 <pre><code class="r">data &lt;- read.csv(unz(&quot;activity.zip&quot;, &quot;activity.csv&quot;), stringsAsFactors = FALSE)
 attach(data)
+</code></pre>
 
-library(ggplot2)
+<pre><code>## The following objects are masked from data (pos = 3):
+## 
+##     date, interval, steps
+</code></pre>
+
+<pre><code>## The following objects are masked from data (pos = 5):
+## 
+##     date, interval, steps
+</code></pre>
+
+<pre><code class="r">library(ggplot2)
 </code></pre>
 
 <h2>What is the mean total number of steps taken per day?</h2>
